@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+h2 {
+    font-size: 30px; line-height:38px; font-weight:normal;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dce0ed;
+    background: url(../Img/bac.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+
+.loginbox {
+    background-color:  rgba(253, 246, 254, 0.19);
+    /*background-color: rgba(253, 246, 254, 0.01);*/
+    padding: 10px; 
+    width: 490px; 
+    margin-left:  30%; 
+    margin-top: 2%;
+    position: relative; 
+    padding-top: 100px;
+    /*border: 1px solid #FBFCFD;*/
+    /*box-shadow: inset 0 1px 0 #FBFCFD;*/
+
+}
+
+.loginboxinner { 
+    /*    background: #FBFCFD; */
+    background-color: rgba(253, 246, 254, 0.01);
+    padding: 5px; 
+    position: relative; 
+
+
+}
+.loginheader {
+    height: 20px;
+}
+.loginform { 
+    margin: 4px auto; 
+    text-align:center; 
+}
+
+.loginbox h1 { 
+    font-size: 30px;
+    letter-spacing: 1px; 
+    color: #555;
+    font-weight: normal; 
+    /*padding-top: 10px;*/ 
+}
+
+.loginbox p { margin: 7px 0 5px 0; 
+}
+
+.loginbox label {
+    display: block;
+    color: #666;
+    letter-spacing: 1px; 
+    font-size: 18px; 
+}
+.loginbox input.mini {
+    width:195px;
+}
+.loginbox input { 
+    padding: 12px 10px;
+    /*    color: #ccc; */
+    font-size: 15px;
+    border: 1px solid #ccc;
+    width: 420px;  outline: none; 
+}
+.loginbox button { 
+    background: #4267b2; 
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #1D3871; 
+    letter-spacing: 1px; color: #fff;
+    width: 440px; line-height:30px;
+    box-shadow: 1px 1px 3px #1D3871; cursor: pointer;
+}
+
+.radius { 
+    border-radius: 5px; 
+}
+.radius1 {
+    border-radius: 3px; 
+}
+.title {  
+    line-height:1px; 
+    font-weight:normal; 
+    text-align:center; 
+    font-size:30px; 
+    margin-top: 0;
+    color: white;
+}
+
+#facebook-Bar {
+    /*background: url(../Img/dd.jpg);*/
+    background:#3f5d9a;
+    border-bottom: 1px solid #0053A6;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.52);
+    min-width: 1000px;
+    width: 100%;
+    z-index: 1000;
+}
+#facebook-Frame {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1000px;
+    height:70px;
+    display:block;
+}
+/*-------LOGO-----------*/
+#logo {
+    float: left;
+    height: 70px;
+    position: relative;
+    width: 160px;
+}
+#logo a {
+    position: absolute;
+    top: 20px;
+    font-size:23px; font-weight:bold; color:#FFF;
+    text-decoration:none;
+}
+
+/*-------Login-----------*/
+#header-main-right {
+    float: right;
+    height: 68px;
+    position: relative;
+    top:5px;
+}
+#header-main-right-nav {
+    padding: 4px 6px 4px 4px;
+    position: absolute;
+    right: -100px;
+}
+#login_form .inputtext {
+    background-color: #FFFFFF;
+    height:16px;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px 8px 5px 8px;
+    width: 166px;
+    border:1px solid #3A518A;
+    margin-top: 2px;
+}
+#login_form .inputtext:hover {
+    border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#login_form table tr td {
+    padding: 0 0 0 5px;
+}
+#login_form table tr td label {
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 1px;
+    text-align: left;
+    vertical-align: middle;
+}
+.fbbutton { 
+    border:1px solid #1D3871; 
+    width:94px; 
+    font-size:14px; line-height:25px; 
+    font-weight:normal; color:#fff;
+    background-color: #4267b2;
+    color:white;
+    margin-top: 2px;
+}
+@media screen and (max-width: 430px) {
+
+    body { font-size: 11px; }
+    button, input, select, textarea { font-size: 11px; }
+
+    .loginbox { width: auto; margin: 10px; }
+    .loginbox input { width: 95%; }
+    .loginbox button { width: 100%; }
+}	
+
+
+.aaa{
+    position: fixed;
+    margin-top: -10px;
+    margin-left: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 190px;
+    /*z-index: 9999999;*/
+
+}
+
+.userList{
+    border: 1px solid balck;
+    width: 250px;
+    height: 780px;
+    /*margin-top: 100px;*/
+    float: right;
+}
+
+.UserName{
+    border: 1px solid balck;
+    width: 250px;
+    height: 780px;
+    margin-top: 100px;
+}
+
+.bcsd{
+
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    color: red;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.dp{
+    height: 100px;
+    width: 100px;
+}
+
+.flo{
+    margin-top: -10px;
+}
+
+.form-head{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.noti{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 5px;
+    z-index: 9999;
+}
+
+
+#home-top{
+
+    height: 50px;
+    background:#3f5d9a;
+}
+
+.bo{
+    /*    border:1px solid white;*/
+    height: 588px;
+}
+
+.ssf{
+    margin-left: -160px;;
+}
+
+
+
+.userW{
+    height: 350px;
+    width: 870px;
+    background-color: rgba(246, 250, 254, 0.53);
+    margin-left: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: url(../Img/dfdf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#rusers{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#avF{
+    font-size: 20px;
+    color: white;
+
+}
+
+#userNa{
+    font-size: 60px;
+    color: white;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.dp{
+    background-color: rgba(246, 250, 254, 0.53);
+    margin-left: -10px;
+    margin-top: -60px;
+    height: 180px;
+    width: 180px;
+}
+
+.borderq{
+    /*border-right: 2px solid white;*/
+    width: 240px;
+    margin-right:  35px;
+    height: 470px;
+    background-color: rgba(0, 5, 2, 0.25);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    /*box-shadow: inset 1px 1px 1px 1px #FFFFFF;*/
+}
+#dsds:hover{
+    /*    background-color: white;;*/
+    border-radius: 100px;
+    /*box-shadow: inset 4px -3px 100px 67px #278CCF,0px 1px 74px 2px #4225B8;*/
+}
+.dfd{
+    margin-left: 10px;
+    margin-top:-30px;
+    padding-right: 38px;
+    /*border-right: 2px solid black;*/
+}
+
+.userW2{
+    height: 50px;
+    width: 870px;
+    background-color: rgba(0, 10, 1, 0.61);
+    /*background-color: rgba(246, 250, 254, 0.53);*/
+    margin-left: -50px;
+    margin-top: 80px;
+}
+.uploadI{
+    position: fixed;
+    right: 250px;
+    height: 40px;
+    width: 40px;
+    top: 350px;
+}
+.uploadI2{
+    position: fixed;
+    left: 425px;
+    height: 30px;
+    width: 30px;
+    top: 490px;
+}
+.uploadI2:hover{
+    box-shadow: inset 4px -3px 100px 67px #278CCF,0px 1px 74px 2px #4225B8;
+}
+.uploadI:hover{
+    box-shadow: inset 4px -3px 100px 67px #278CCF,0px 1px 74px 2px #4225B8;
+}
+
+#reqq{
+    font-size: 20px;
+
+}
+
+.frd{
+    /*background-color: rgba(253, 250, 237, 0.41);*/
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+#tsp{
+    color:white;
+}
+
+.floatW{
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    left: 120px;
+    top: 200px;
+    background-color: rgba(13, 10, 3, 0.65);
+    color: white;
+    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rlist{
+
+    color:rgba(6, 254, 101, 0.92);
+}
+.newM{
+    position: fixed;
+    height: 400px;
+    width:300px;
+    background-color:  white;
+    left: 320px;
+    top: 200px;
+}
+
+#message{
+    right: 120px;
+    bottom: -350px;
+    transition: bottom 2s;
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(13, 10, 3, 0.65);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tt{
+    text-align: right;
+    height: 280px;
+}
+
+#snd{
+    width: 205px;
+}
+
